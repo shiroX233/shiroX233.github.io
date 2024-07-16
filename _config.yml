@@ -1,12 +1,8 @@
 # Site settings
 title: Moguoの国
-SEOTitle: Moguoの国 | Moguoの国
+SEOTitle: Moguoの国 | 纪念馆
 header-img: img/home-bg.jpg
-email: 
-description: ""
-keyword: ""
 url: "https://mfc.juicyapplepie.xyz" # your host, for absolute URL
-baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -53,7 +49,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+# disqus_username: https-mfc-juicyapplepie-xyz
 
 # Netease settings
 netease_comment: false
