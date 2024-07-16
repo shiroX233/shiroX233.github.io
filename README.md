@@ -1,4 +1,4 @@
-[Hux Blog](https://huangxuan.me)
+[Hux Blog](https://mfc.juicyapplepie.xyz)
 ================================
 
 > I never expected this to become popular.
