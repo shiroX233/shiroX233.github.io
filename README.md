@@ -61,3 +61,7 @@ Copyright (c) 2015-present Huxpro
 
 Hux Blog is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/)
 Copyright (c) 2013-2016 Blackrock Digital LLC.
+
+
+开启实时渲染：
+jekyll serve --livereload
