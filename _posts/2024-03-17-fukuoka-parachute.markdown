@@ -40,7 +40,7 @@ function changeVideoSource_1() {
     videoContainer.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/S5B9NmdEhDc?si=KJPmX2rgrDzOsaii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
   } else if (videoSource === "bilibili") {
     // 添加Bilibili视频
-    videoContainer.innerHTML = '<iframe width="560" height="315" src="https://47.93.29.116/videos/GH010140.MP4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>';
+    videoContainer.innerHTML = '<a href="http://47.93.29.116/videos/GH010140.MP4" target="_blank" rel="noopener noreferrer">点击这里观看视频</a>';
   }
 }
 
@@ -75,7 +75,7 @@ function changeVideoSource_2() {
     videoContainer.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/I1sSwYIz4rg?si=qkFVi9tnvQXrXkHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
   } else if (videoSource === "bilibili") {
     // 添加Bilibili视频
-    videoContainer.innerHTML = '<iframe width="560" height="315" src="https://47.93.29.116/videos/GH010141.MP4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>';
+    videoContainer.innerHTML = '<a href="http://47.93.29.116/videos/GH010141.MP4" target="_blank" rel="noopener noreferrer">点击这里观看视频</a>';
   }
 }
 
@@ -111,7 +111,7 @@ function changeVideoSource_3() {
     videoContainer.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/SNKjn-9Qw2E?si=bOjYYUmycsBnUQoF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
   } else if (videoSource === "bilibili") {
     // 添加Bilibili视频
-    videoContainer.innerHTML = '<iframe src="http://47.93.29.116/videos/GH010142.MP4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>';
+    videoContainer.innerHTML = '<a href="http://47.93.29.116/videos/GH010142.MP4" target="_blank" rel="noopener noreferrer">点击这里观看视频</a>';
   }
 }
 
