@@ -21,7 +21,7 @@ tags:
 <label for="video-source-1">选择视频源：</label>
 <select id="video-source-1" onchange="changeVideoSource_1('video-container-1')">
   <option value="youtube">YouTube</option>
-  <option value="bilibili">Bilibili</option>
+  <option value="bilibili">国内源</option>
 </select>
 
 <!-- 显示视频 -->
@@ -40,7 +40,7 @@ function changeVideoSource_1() {
     videoContainer.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/S5B9NmdEhDc?si=KJPmX2rgrDzOsaii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
   } else if (videoSource === "bilibili") {
     // 添加Bilibili视频
-    videoContainer.innerHTML = '<iframe width="560" height="315" src="https://player.bilibili.com/player.html?isOutside=true&aid=231292325&bvid=BV1v8411m7Xr&cid=1209294663&p=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>';
+    videoContainer.innerHTML = '<iframe width="560" height="315" src="https://47.93.29.116/videos/GH010140.MP4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>';
   }
 }
 
@@ -56,7 +56,7 @@ changeVideoSource_1();
 <label for="video-source-2">选择视频源：</label>
 <select id="video-source-2" onchange="changeVideoSource_2('video-container-2')">
   <option value="youtube">YouTube</option>
-  <option value="bilibili">Bilibili</option>
+  <option value="bilibili">国内源</option>
 </select>
 
 <!-- 显示视频 -->
@@ -75,7 +75,7 @@ function changeVideoSource_2() {
     videoContainer.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/I1sSwYIz4rg?si=qkFVi9tnvQXrXkHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
   } else if (videoSource === "bilibili") {
     // 添加Bilibili视频
-    videoContainer.innerHTML = '<iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=1234&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>';
+    videoContainer.innerHTML = '<iframe width="560" height="315" src="https://47.93.29.116/videos/GH010141.MP4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>';
   }
 }
 
@@ -92,7 +92,7 @@ changeVideoSource_2();
 <label for="video-source-3">选择视频源：</label>
 <select id="video-source-3" onchange="changeVideoSource_3()">
   <option value="youtube">YouTube</option>
-  <option value="bilibili">Bilibili</option>
+  <option value="bilibili">国内源</option>
 </select>
 
 <!-- 显示视频 -->
@@ -111,7 +111,7 @@ function changeVideoSource_3() {
     videoContainer.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/SNKjn-9Qw2E?si=bOjYYUmycsBnUQoF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
   } else if (videoSource === "bilibili") {
     // 添加Bilibili视频
-    videoContainer.innerHTML = '<iframe src="//player.bilibili.com/player.html?aid=1234&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>';
+    videoContainer.innerHTML = '<iframe src="https://47.93.29.116/videos/GH010142.MP4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>';
   }
 }
 
