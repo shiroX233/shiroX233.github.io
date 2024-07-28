@@ -45,7 +45,7 @@ function changeVideoSource_1() {
     videoContainer.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/Qm76lU65ITs?si=L2Bmnbq0L9aRM_a-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
   } else if (videoSource === "bilibili") {
     // 添加Bilibili视频
-    videoContainer.innerHTML = '<iframe width="560" height="315" src="https://47.93.29.116/videos/test.mp4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>';
+    videoContainer.innerHTML = '<iframe width="560" height="315" src="http://47.93.29.116/videos/test.mp4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>';
   }
 }
 
