@@ -32,6 +32,41 @@
 <!-- Simple Jekyll Search -->
 <script src="{{ "/js/simple-jekyll-search.min.js" | prepend: site.baseurl }}"></script>
 
+{% if page.sakura %}
+<script src="{{ "/js/sakura.min.js" | prepend: site.baseurl }}"></script>
+<script>
+    (function () {
+        if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            return;
+        }
+
+        new Sakura('body', {
+            fallSpeed: 2,
+            minSize: 8,
+            maxSize: 16,
+            delay: 450,
+            colors: [
+                {
+                    gradientColorStart: 'rgba(255, 183, 197, 0.9)',
+                    gradientColorEnd: 'rgba(255, 197, 208, 0.9)',
+                    gradientColorDegree: 120,
+                },
+                {
+                    gradientColorStart: 'rgba(255, 212, 224, 0.9)',
+                    gradientColorEnd: 'rgba(255, 182, 193, 0.9)',
+                    gradientColorDegree: 90,
+                },
+                {
+                    gradientColorStart: 'rgba(255, 236, 240, 0.9)',
+                    gradientColorEnd: 'rgba(255, 200, 221, 0.9)',
+                    gradientColorDegree: 135,
+                }
+            ]
+        });
+    })();
+</script>
+{% endif %}
+
 <!-- Service Worker -->
 {% if site.service-worker %}
 <script src="{{ "/js/snackbar.js " | prepend: site.baseurl }}"></script>
